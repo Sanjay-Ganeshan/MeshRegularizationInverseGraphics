@@ -1,0 +1,5 @@
+{
+    "experiment_name": "MT_D_0",
+    "mesh_transformer": "ABSOLUTE",
+    "groundtruth_name": "airplane"
+}

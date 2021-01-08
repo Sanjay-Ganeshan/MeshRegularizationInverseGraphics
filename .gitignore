@@ -1,0 +1,5 @@
+**__pycache__**
+data/blender
+data/output_archive
+data/output/*/guess_*
+!data/output/*/guess_final

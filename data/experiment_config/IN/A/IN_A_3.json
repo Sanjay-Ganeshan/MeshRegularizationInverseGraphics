@@ -1,0 +1,5 @@
+{
+    "experiment_name": "IN_A_3",
+    "guess_mesh_init": "SPECIFIC",
+    "groundtruth_name": "airplane"
+}

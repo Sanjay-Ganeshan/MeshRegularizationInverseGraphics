@@ -1,0 +1,6 @@
+{
+    "experiment_name": "MT_B_2",
+    "mesh_transformer": "NORMAL",
+    "groundtruth_name": "pear",
+    "max_refinements": 4
+}

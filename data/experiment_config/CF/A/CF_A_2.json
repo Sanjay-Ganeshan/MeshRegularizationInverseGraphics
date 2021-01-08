@@ -1,0 +1,9 @@
+{
+    "experiment_name": "CF_A_2",
+    
+    "upsample_enabled": true,
+    "manifold_enabled": true,
+    "groundtruth_name": "airplane",
+    
+    "max_refinements": 3
+}

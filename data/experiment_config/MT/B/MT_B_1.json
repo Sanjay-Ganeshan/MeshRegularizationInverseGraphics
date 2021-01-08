@@ -1,0 +1,5 @@
+{
+    "experiment_name": "MT_B_1",
+    "mesh_transformer": "RESIDUAL",
+    "groundtruth_name": "pear"
+}

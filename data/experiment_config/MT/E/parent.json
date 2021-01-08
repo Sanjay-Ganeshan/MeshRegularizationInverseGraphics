@@ -1,0 +1,33 @@
+{
+    "experiment_name": "CHANGEME",
+    "mesh_transformer": "CHANGEME",
+    "groundtruth_name": "CHANGEME",
+    
+    "tex_transformer": "NONE",
+    "loss_weight_pyramid": 0.5,
+    "loss_weight_silhoutte": 0.5,
+    "loss_weight_laplacian": 0.0,
+    "loss_weight_nonuniformity": 0.0,
+    "loss_weight_flatness": 0.0,
+    
+    "pyramid_num_levels": 3,
+
+    "laplacian_scale_by_original_division": false,
+    "laplacian_scale_by_original_subtraction": false,
+    "laplacian_normalize_by_edge_length": false,
+
+    "upsample_enabled": false,
+    "manifold_enabled": false,
+
+    "max_refinements": 1,
+    "evolve_into": null,
+
+    
+    "groundtruth_tex_mode": "NONE",
+    "groundtruth_camera_mode": "DEFAULT",
+    
+    "guess_mesh_init": "SPECIFIC",
+    "guess_tex_init": "EXACT",
+    
+    "guess_name": null
+}

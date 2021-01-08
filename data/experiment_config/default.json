@@ -1,0 +1,50 @@
+{
+    "optimization_algorithm": "ADAM",
+    "lr_initial": 0.005,
+    "lr_iters_for_minimum": 10,
+    "lr_reduction_factor": 0.5,
+    "lr_reductions_for_convergence": 8,
+    "early_convergence_n_epochs": 50,
+    "early_convergence_max_change": 0.0001,
+    "loss_scale_pyramid": 20.0,
+    "loss_scale_silhoutte": 1.0,
+    "loss_scale_laplacian": 5.0,
+    "loss_scale_nonuniformity": 10.0,
+    "loss_scale_flatness": 0.004,
+    "upsample_interval": 500,
+    "upsample_factor": 1.5,
+    "manifold_quality": 3000,
+    "evolution_interval": null,
+
+    "mesh_transformer": "CHANGEME",
+    "tex_transformer": "CHANGEME",
+    
+    "loss_weight_pyramid": 0.0,
+    "loss_weight_silhoutte": 0.0,
+    "loss_weight_laplacian": 0.0,
+    "loss_weight_nonuniformity": 0.0,
+    "loss_weight_flatness": 0.0,
+    
+    "pyramid_num_levels": 3,
+
+    "laplacian_scale_by_original_division": false,
+    "laplacian_scale_by_original_subtraction": false,
+    "laplacian_normalize_by_edge_length": false,
+
+    "upsample_enabled": true,
+    "manifold_enabled": true,
+
+    "max_refinements": 1,
+    "evolve_into": null,
+
+    "experiment_name": "CHANGEME",
+    "groundtruth_name": "CHANGEME",
+    
+    "groundtruth_tex_mode": "DEFAULT",
+    "groundtruth_camera_mode": "DEFAULT",
+    
+    "guess_mesh_init": "CHANGEME",
+    "guess_tex_init": "CHANGEME",
+    
+    "guess_name": null
+}

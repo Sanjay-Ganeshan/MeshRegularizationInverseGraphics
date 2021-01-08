@@ -1,0 +1,6 @@
+{
+    "experiment_name": "MT_A_2",
+    "mesh_transformer": "NORMAL",
+    "groundtruth_name": "sine",
+    "max_refinements": 4
+}

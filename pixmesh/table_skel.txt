@@ -1,0 +1,17 @@
+\textbf{%s} & %.2f & %.3f & %d \\ \hline
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|c|c|c|c|}
+    \Xhline{3\arrayrulewidth}
+    \hline
+    {\large \textbf{Name}} & 
+        {\large \textbf{Voxel IOU}} & 
+        {\large \textbf{\(1000 \times \mathcal{L}_{IMG}\)}} &
+        {\large \textbf{N Iters}}
+        \\
+    \Xhline{3\arrayrulewidth}
+    %s
+\end{tabular}
+\caption{Metrics for experiments in %s}
+\label{tbl:results_%s}
+\end{table}

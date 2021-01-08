@@ -1,0 +1,5 @@
+{
+    "experiment_name": "MT_A_0",
+    "mesh_transformer": "ABSOLUTE",
+    "groundtruth_name": "sine"
+}

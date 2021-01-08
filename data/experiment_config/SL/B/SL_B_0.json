@@ -1,0 +1,6 @@
+{
+    "experiment_name": "SL_B_0",
+    "loss_weight_pyramid": 0.0,
+    "loss_weight_silhoutte": 1.0,
+    "groundtruth_name": "pear"
+}

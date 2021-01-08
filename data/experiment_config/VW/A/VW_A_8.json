@@ -1,0 +1,5 @@
+{
+    "experiment_name": "VW_A_8",
+    "groundtruth_name": "airplane",
+    "groundtruth_camera_mode": "EXTRA"
+}

@@ -1,0 +1,32 @@
+{
+    "experiment_name": "TST",
+    "groundtruth_name": "CHANGEME",
+    
+    "guess_mesh_init": "SPECIFIC",
+    "guess_name": "hiresgeneric",
+    "mesh_transformer": "ABSOLUTE",
+    "tex_transformer": "ABSOLUTE",
+    
+    "loss_weight_pyramid": 0.3,
+    "loss_weight_silhoutte": 0.3,
+    "loss_weight_laplacian": 0.3,
+    "loss_weight_nonuniformity": 0.0,
+    "loss_weight_flatness": 0.0,
+    
+    "pyramid_num_levels": 3,
+
+    "laplacian_scale_by_original_division": false,
+    "laplacian_scale_by_original_subtraction": false,
+    "laplacian_normalize_by_edge_length": false,
+
+    "upsample_enabled": false,
+    "manifold_enabled": false,
+
+    "max_refinements": 1,
+    "evolve_into": null,
+   
+    "groundtruth_tex_mode": "DEFAULT",
+    "groundtruth_camera_mode": "DEFAULT",
+
+    "guess_tex_init": "GENERIC"
+}

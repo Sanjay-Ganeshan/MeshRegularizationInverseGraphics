@@ -1,0 +1,7 @@
+{
+    "experiment_name": "LP_B_1",
+    
+    "laplacian_scale_by_original_division": true,
+    "laplacian_scale_by_original_subtraction": false,
+    "laplacian_normalize_by_edge_length": false
+}

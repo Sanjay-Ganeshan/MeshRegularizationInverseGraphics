@@ -1,0 +1,6 @@
+{
+    "experiment_name": "MT_C_2",
+    "mesh_transformer": "NORMAL",
+    "groundtruth_name": "giraffe",
+    "max_refinements": 4
+}

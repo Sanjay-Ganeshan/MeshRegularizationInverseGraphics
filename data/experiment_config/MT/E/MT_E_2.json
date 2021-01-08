@@ -1,0 +1,6 @@
+{
+    "experiment_name": "MT_E_2",
+    "mesh_transformer": "NORMAL",
+    "groundtruth_name": "mug",
+    "max_refinements": 4
+}

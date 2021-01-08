@@ -1,0 +1,6 @@
+{
+    "experiment_name": "PY_B_1",
+    
+    "pyramid_num_levels": 3,
+    "groundtruth_name": "sine"
+}

@@ -1,0 +1,9 @@
+{
+    "experiment_name": "CF_A_1",
+    
+    "upsample_enabled": false,
+    "manifold_enabled": false,
+    "groundtruth_name": "pear",
+    
+    "max_refinements": 1
+}

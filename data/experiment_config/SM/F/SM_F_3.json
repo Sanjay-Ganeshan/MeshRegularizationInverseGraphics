@@ -1,0 +1,8 @@
+{
+    "experiment_name": "SM_F_3",
+    
+    "loss_weight_pyramid": 0.2,
+    "loss_weight_laplacian": 0.2,
+    "loss_weight_nonuniformity": 0.1,
+    "loss_weight_flatness": 0.2
+}

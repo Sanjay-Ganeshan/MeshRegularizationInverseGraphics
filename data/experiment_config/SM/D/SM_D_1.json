@@ -1,0 +1,9 @@
+{
+    "experiment_name": "SM_D_1",
+    
+    "loss_weight_silhoutte": 0.2,
+    "loss_weight_pyramid": 0.5,
+    "loss_weight_laplacian": 0.0,
+    "loss_weight_nonuniformity": 0.3,
+    "loss_weight_flatness": 0.0    
+}

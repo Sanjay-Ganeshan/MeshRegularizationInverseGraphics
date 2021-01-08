@@ -1,0 +1,5 @@
+{
+    "experiment_name": "VW_A_1",
+    "groundtruth_name": "giraffe",
+    "groundtruth_camera_mode": "SINGLE"
+}

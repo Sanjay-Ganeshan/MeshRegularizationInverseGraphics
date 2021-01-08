@@ -1,0 +1,37 @@
+{
+    "experiment_name": "GN_A_0",
+    
+    "loss_weight_silhoutte": 0.0,
+    "loss_weight_pyramid": 1.0,
+    "loss_weight_laplacian": 0.0,
+    "loss_weight_nonuniformity": 0.0,
+    "loss_weight_flatness": 0.0,
+
+    "groundtruth_name": "airplane",
+
+    "mesh_transformer": "NONE",
+    "lr_initial": 0.005,
+    "tex_transformer": "ABSOLUTE",
+    "pyramid_num_levels": 3,
+    "laplacian_scale_by_original_division": false,
+    "laplacian_scale_by_original_subtraction": false,
+    "laplacian_normalize_by_edge_length": false,
+    "upsample_enabled": false,
+    "manifold_enabled": false,
+    "max_refinements": 2,
+    "evolve_into": {
+        "lr_initial": 0.0005,
+        "loss_weight_silhoutte": 0.1,
+        "loss_weight_pyramid": 0.45,
+        "loss_weight_laplacian": 0.35,
+        "loss_weight_nonuniformity": 0.02,
+        "loss_weight_flatness": 0.08,
+        "mesh_transformer": "NEURAL",
+        "tex_transformer": "ABSOLUTE"
+    },
+    "groundtruth_tex_mode": "DEFAULT",
+    "groundtruth_camera_mode": "DEFAULT",
+    "guess_mesh_init": "OTHER",
+    "guess_tex_init": "SPECIFIC",
+    "guess_name": "learnedairplane"
+}

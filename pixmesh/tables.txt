@@ -1,0 +1,358 @@
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|c|c|c|c|}
+    \Xhline{3\arrayrulewidth}
+    \hline
+    {\large \textbf{Name}} & 
+        {\large \textbf{Voxel IOU}} & 
+        {\large \textbf{\(1000 \times \mathcal{L}_{IMG}\)}} &
+        {\large \textbf{N Iters}}
+        \\
+    \Xhline{3\arrayrulewidth}
+    \textbf{CF-A-0} & 0.35 & 1.278 & 624 \\ \hline
+
+\textbf{CF-A-1} & 0.22 & 0.763 & 227 \\ \hline
+
+\textbf{CF-A-2} & 0.17 & 1.238 & 691 \\ \hline
+
+\textbf{CF-A-3} & 0.09 & 10.232 & 249 \\ \hline
+
+\end{tabular}
+\caption{Metrics for experiments in CF}
+\label{tbl:results_CF}
+\end{table}
+
+
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|c|c|c|c|}
+    \Xhline{3\arrayrulewidth}
+    \hline
+    {\large \textbf{Name}} & 
+        {\large \textbf{Voxel IOU}} & 
+        {\large \textbf{\(1000 \times \mathcal{L}_{IMG}\)}} &
+        {\large \textbf{N Iters}}
+        \\
+    \Xhline{3\arrayrulewidth}
+    \textbf{IN-A-0} & 0.18 & 1.694 & 241 \\ \hline
+
+\textbf{IN-A-1} & 0.08 & 16.103 & 519 \\ \hline
+
+\textbf{IN-A-2} & 0.03 & 55.188 & 557 \\ \hline
+
+\textbf{IN-A-3} & 0.20 & 4.414 & 323 \\ \hline
+
+\textbf{IN-A-4} & 0.09 & 20.126 & 706 \\ \hline
+
+\textbf{IN-A-5} & 0.05 & 64.540 & 559 \\ \hline
+
+\textbf{IN-B-0} & 1.00 & 0.271 & 265 \\ \hline
+
+\textbf{IN-B-1} & 1.00 & 0.058 & 390 \\ \hline
+
+\textbf{IN-B-2} & 1.00 & 0.167 & 279 \\ \hline
+
+\textbf{IN-B-3} & 1.00 & 0.073 & 247 \\ \hline
+
+\textbf{IN-C-0} & 0.15 & 7.231 & 240 \\ \hline
+
+\textbf{IN-C-1} & 0.06 & 3.617 & 152 \\ \hline
+
+\end{tabular}
+\caption{Metrics for experiments in IN}
+\label{tbl:results_IN}
+\end{table}
+
+
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|c|c|c|c|}
+    \Xhline{3\arrayrulewidth}
+    \hline
+    {\large \textbf{Name}} & 
+        {\large \textbf{Voxel IOU}} & 
+        {\large \textbf{\(1000 \times \mathcal{L}_{IMG}\)}} &
+        {\large \textbf{N Iters}}
+        \\
+    \Xhline{3\arrayrulewidth}
+    \textbf{LP-A-0} & 0.18 & 0.860 & 1049 \\ \hline
+
+\textbf{LP-A-1} & 0.07 & 21.057 & 413 \\ \hline
+
+\textbf{LP-A-2} & 0.26 & 0.608 & 278 \\ \hline
+
+\textbf{LP-A-3} & 0.04 & 3.882 & 329 \\ \hline
+
+\textbf{LP-B-0} & 0.26 & 1.022 & 310 \\ \hline
+
+\textbf{LP-B-1} & 0.07 & 18.955 & 405 \\ \hline
+
+\textbf{LP-B-2} & 0.12 & 1.592 & 255 \\ \hline
+
+\textbf{LP-B-3} & 0.09 & 2.938 & 403 \\ \hline
+
+\end{tabular}
+\caption{Metrics for experiments in LP}
+\label{tbl:results_LP}
+\end{table}
+
+
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|c|c|c|c|}
+    \Xhline{3\arrayrulewidth}
+    \hline
+    {\large \textbf{Name}} & 
+        {\large \textbf{Voxel IOU}} & 
+        {\large \textbf{\(1000 \times \mathcal{L}_{IMG}\)}} &
+        {\large \textbf{N Iters}}
+        \\
+    \Xhline{3\arrayrulewidth}
+    \textbf{MT-A-0} & 0.04 & 1.204 & 212 \\ \hline
+
+\textbf{MT-A-1} & 0.06 & 1.419 & 190 \\ \hline
+
+\textbf{MT-A-2} & 0.05 & 4.141 & 261 \\ \hline
+
+\textbf{MT-B-0} & 0.17 & 1.058 & 302 \\ \hline
+
+\textbf{MT-B-1} & 0.15 & 1.069 & 301 \\ \hline
+
+\textbf{MT-B-2} & 0.03 & 2.452 & 848 \\ \hline
+
+\textbf{MT-B-3} & 0.06 & 1.530 & 234 \\ \hline
+
+\textbf{MT-C-0} & 0.17 & 2.659 & 238 \\ \hline
+
+\textbf{MT-C-1} & 0.16 & 1.777 & 274 \\ \hline
+
+\textbf{MT-C-2} & 0.08 & 5.031 & 777 \\ \hline
+
+\textbf{MT-C-3} & 0.20 & 1.367 & 226 \\ \hline
+
+\textbf{MT-D-0} & 0.26 & 7.884 & 291 \\ \hline
+
+\textbf{MT-D-1} & 0.09 & 6.179 & 297 \\ \hline
+
+\textbf{MT-D-2} & 0.06 & 22.599 & 673 \\ \hline
+
+\textbf{MT-D-3} & 0.14 & 7.866 & 218 \\ \hline
+
+\textbf{MT-E-0} & 0.06 & 18.071 & 182 \\ \hline
+
+\textbf{MT-E-1} & 0.06 & 19.108 & 176 \\ \hline
+
+\textbf{MT-E-2} & 0.04 & 32.835 & 635 \\ \hline
+
+\end{tabular}
+\caption{Metrics for experiments in MT}
+\label{tbl:results_MT}
+\end{table}
+
+
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|c|c|c|c|}
+    \Xhline{3\arrayrulewidth}
+    \hline
+    {\large \textbf{Name}} & 
+        {\large \textbf{Voxel IOU}} & 
+        {\large \textbf{\(1000 \times \mathcal{L}_{IMG}\)}} &
+        {\large \textbf{N Iters}}
+        \\
+    \Xhline{3\arrayrulewidth}
+    \textbf{PY-A-0} & 0.06 & 1.426 & 182 \\ \hline
+
+\textbf{PY-A-1} & 0.03 & 1.309 & 181 \\ \hline
+
+\textbf{PY-A-2} & 0.14 & 1.666 & 262 \\ \hline
+
+\textbf{PY-A-3} & 0.14 & 1.177 & 317 \\ \hline
+
+\textbf{PY-B-0} & 1.00 & 0.283 & 257 \\ \hline
+
+\textbf{PY-B-1} & 1.00 & 0.263 & 274 \\ \hline
+
+\textbf{PY-B-2} & 1.00 & 0.197 & 251 \\ \hline
+
+\textbf{PY-B-3} & 1.00 & 0.172 & 269 \\ \hline
+
+\textbf{PY-C-0} & 0.09 & 1.647 & 281 \\ \hline
+
+\textbf{PY-C-1} & 0.08 & 2.445 & 253 \\ \hline
+
+\textbf{PY-C-2} & 0.14 & 1.319 & 275 \\ \hline
+
+\textbf{PY-C-3} & 0.16 & 0.843 & 297 \\ \hline
+
+\end{tabular}
+\caption{Metrics for experiments in PY}
+\label{tbl:results_PY}
+\end{table}
+
+
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|c|c|c|c|}
+    \Xhline{3\arrayrulewidth}
+    \hline
+    {\large \textbf{Name}} & 
+        {\large \textbf{Voxel IOU}} & 
+        {\large \textbf{\(1000 \times \mathcal{L}_{IMG}\)}} &
+        {\large \textbf{N Iters}}
+        \\
+    \Xhline{3\arrayrulewidth}
+    \textbf{SL-A-0} & 0.28 & 3.983 & 321 \\ \hline
+
+\textbf{SL-A-1} & 0.15 & 5.017 & 305 \\ \hline
+
+\textbf{SL-A-2} & 0.27 & 4.656 & 323 \\ \hline
+
+\textbf{SL-A-3} & 0.24 & 6.590 & 266 \\ \hline
+
+\textbf{SL-A-4} & 0.23 & 7.629 & 270 \\ \hline
+
+\textbf{SL-B-0} & 0.11 & 1.804 & 260 \\ \hline
+
+\textbf{SL-B-1} & 0.14 & 1.295 & 287 \\ \hline
+
+\textbf{SL-B-2} & 0.27 & 4.609 & 327 \\ \hline
+
+\textbf{SL-B-3} & 0.28 & 4.754 & 308 \\ \hline
+
+\end{tabular}
+\caption{Metrics for experiments in SL}
+\label{tbl:results_SL}
+\end{table}
+
+
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|c|c|c|c|}
+    \Xhline{3\arrayrulewidth}
+    \hline
+    {\large \textbf{Name}} & 
+        {\large \textbf{Voxel IOU}} & 
+        {\large \textbf{\(1000 \times \mathcal{L}_{IMG}\)}} &
+        {\large \textbf{N Iters}}
+        \\
+    \Xhline{3\arrayrulewidth}
+    \textbf{SM-A-0} & 0.09 & 1.141 & 668 \\ \hline
+
+\textbf{SM-A-1} & 0.11 & 1.192 & 651 \\ \hline
+
+\textbf{SM-A-2} & 0.19 & 1.240 & 704 \\ \hline
+
+\textbf{SM-A-3} & 0.17 & 1.256 & 940 \\ \hline
+
+\textbf{SM-B-0} & 0.21 & 0.293 & 639 \\ \hline
+
+\textbf{SM-B-1} & 0.25 & 0.214 & 704 \\ \hline
+
+\textbf{SM-B-2} & 0.18 & 0.219 & 673 \\ \hline
+
+\textbf{SM-B-3} & 0.20 & 0.328 & 683 \\ \hline
+
+\textbf{SM-C-0} & 0.19 & 0.708 & 716 \\ \hline
+
+\textbf{SM-C-1} & 0.32 & 0.938 & 777 \\ \hline
+
+\textbf{SM-C-2} & 0.27 & 1.022 & 749 \\ \hline
+
+\textbf{SM-C-3} & 0.25 & 1.241 & 672 \\ \hline
+
+\textbf{SM-D-0} & 0.35 & 0.981 & 700 \\ \hline
+
+\textbf{SM-D-1} & 0.15 & 1.231 & 814 \\ \hline
+
+\textbf{SM-D-2} & 0.29 & 1.201 & 821 \\ \hline
+
+\textbf{SM-D-3} & 0.11 & 2.568 & 843 \\ \hline
+
+\textbf{SM-E-1} & 0.10 & 5.714 & 1449 \\ \hline
+
+\textbf{SM-E-2} & 0.07 & 11.421 & 1815 \\ \hline
+
+\textbf{SM-E-3} & 0.05 & 30.361 & 1376 \\ \hline
+
+\textbf{SM-F-0} & 0.17 & 2.389 & 931 \\ \hline
+
+\textbf{SM-F-1} & 0.18 & 2.310 & 1025 \\ \hline
+
+\textbf{SM-F-2} & 0.23 & 4.538 & 1215 \\ \hline
+
+\textbf{SM-F-3} & 0.14 & 7.806 & 1266 \\ \hline
+
+\end{tabular}
+\caption{Metrics for experiments in SM}
+\label{tbl:results_SM}
+\end{table}
+
+
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|c|c|c|c|}
+    \Xhline{3\arrayrulewidth}
+    \hline
+    {\large \textbf{Name}} & 
+        {\large \textbf{Voxel IOU}} & 
+        {\large \textbf{\(1000 \times \mathcal{L}_{IMG}\)}} &
+        {\large \textbf{N Iters}}
+        \\
+    \Xhline{3\arrayrulewidth}
+    \textbf{STX-A-0} & 0.08 & 2.198 & 257 \\ \hline
+
+\textbf{STX-A-1} & 0.06 & 4.091 & 229 \\ \hline
+
+\textbf{STX-A-2} & 0.18 & 0.880 & 290 \\ \hline
+
+\textbf{STX-A-3} & 0.16 & 0.623 & 237 \\ \hline
+
+\end{tabular}
+\caption{Metrics for experiments in STX}
+\label{tbl:results_STX}
+\end{table}
+
+
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|c|c|c|c|}
+    \Xhline{3\arrayrulewidth}
+    \hline
+    {\large \textbf{Name}} & 
+        {\large \textbf{Voxel IOU}} & 
+        {\large \textbf{\(1000 \times \mathcal{L}_{IMG}\)}} &
+        {\large \textbf{N Iters}}
+        \\
+    \Xhline{3\arrayrulewidth}
+    \textbf{VW-A-0} & 0.09 & 0.789 & 851 \\ \hline
+
+\textbf{VW-A-1} & 0.05 & 0.267 & 788 \\ \hline
+
+\textbf{VW-A-2} & 0.11 & 0.543 & 788 \\ \hline
+
+\textbf{VW-A-3} & 0.19 & 1.257 & 866 \\ \hline
+
+\textbf{VW-A-4} & 0.25 & 0.221 & 895 \\ \hline
+
+\textbf{VW-A-5} & 0.19 & 0.916 & 905 \\ \hline
+
+\textbf{VW-A-6} & 0.21 & 1.300 & 843 \\ \hline
+
+\textbf{VW-A-7} & 0.21 & 0.788 & 891 \\ \hline
+
+\textbf{VW-A-8} & 0.26 & 3.851 & 1109 \\ \hline
+
+\end{tabular}
+\caption{Metrics for experiments in VW}
+\label{tbl:results_VW}
+\end{table}
+

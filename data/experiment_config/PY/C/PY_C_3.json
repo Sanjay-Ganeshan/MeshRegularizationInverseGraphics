@@ -1,0 +1,6 @@
+{
+    "experiment_name": "PY_C_3",
+    
+    "pyramid_num_levels": 3,
+    "groundtruth_name": "pear"
+}

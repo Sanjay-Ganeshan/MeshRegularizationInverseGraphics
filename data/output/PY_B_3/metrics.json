@@ -1,0 +1,11 @@
+{
+    "initial": {
+        "imageloss": 0.0013918157201260328,
+        "iou": 1.0
+    },
+    "niters": 269,
+    "predicted": {
+        "imageloss": 0.0001715294347377494,
+        "iou": 1.0
+    }
+}

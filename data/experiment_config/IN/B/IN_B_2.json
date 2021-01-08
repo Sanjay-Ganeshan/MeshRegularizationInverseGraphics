@@ -1,0 +1,5 @@
+{
+    "experiment_name": "IN_B_2",
+    "groundtruth_name": "pear",
+    "guess_tex_init": "GENERIC"
+}

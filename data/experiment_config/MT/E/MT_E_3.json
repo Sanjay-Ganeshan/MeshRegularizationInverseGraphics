@@ -1,0 +1,6 @@
+{
+    "experiment_name": "MT_E_3",
+    "mesh_transformer": "NEURAL",
+    "lr_initial": 0.001,
+    "groundtruth_name": "mug"
+}

@@ -1,0 +1,6 @@
+{
+    "experiment_name": "SL_B_3",
+    "loss_weight_pyramid": 1.0,
+    "loss_weight_silhoutte": 0.0,
+    "groundtruth_name": "airplane"
+}

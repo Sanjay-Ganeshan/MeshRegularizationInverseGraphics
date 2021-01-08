@@ -1,0 +1,5 @@
+{
+    "experiment_name": "SL_A_1",
+    "loss_weight_pyramid": 0.25,
+    "loss_weight_silhoutte": 0.75
+}

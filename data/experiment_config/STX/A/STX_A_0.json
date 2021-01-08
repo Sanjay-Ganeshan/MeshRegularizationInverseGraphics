@@ -1,0 +1,5 @@
+{
+    "experiment_name": "STX_A_0",
+    "groundtruth_name": "sine",
+    "guess_tex_init": "GENERIC"
+}

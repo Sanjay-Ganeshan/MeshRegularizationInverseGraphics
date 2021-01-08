@@ -1,0 +1,29 @@
+{
+    "fov": [60],
+    "resolution": [256, 256],
+    "look_at": [0, 0, 0],
+    "up": [0, 1, 0],
+    "positions": [
+        [-1.5, 1.5, -1.5],
+        [2, 0, 0],
+        [0, 0, 2],
+        [0, 0, -2],
+        [1.5, 1.5, 1.5],
+        [-2, 0, 0]
+    ],
+    "comments": "For raw redner",
+    "unused": [
+    ],
+    "lights": [
+        {
+            "type": "directional",
+            "direction": [0, -1, -1],
+            "intensity": [1, 1, 1]
+        },
+        {
+            "type": "directional",
+            "direction": [0, -1, 1],
+            "intensity": [1, 1, 1]
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "experiment_name": "STX_A_3",
+    "groundtruth_name": "pear",
+    "guess_tex_init": "SPECIFIC"
+}
